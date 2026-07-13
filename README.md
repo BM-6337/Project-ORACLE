@@ -1,7 +1,5 @@
 # O.R.A.C.L.E
 
-> **An AI-powered SMS stock intelligence agent that monitors your watchlist, detects significant market movements, analyzes the news behind them, and delivers concise, actionable insights directly to your phone. Stay informed without constantly watching the market, and manage your portfolio using simple natural-language SMS commands.**
-
 O.R.A.C.L.E (Optimized Reasoning and Analytics for Capital & Live Events) continuously monitors the stocks you care about, identifies meaningful price movements, investigates the events driving those changes, and notifies you with AI-generated summaries via SMS. Whether you're away from your screen or on the move, Oracle keeps you connected to the market through intelligent, real-time updates.
 
 ![O.R.A.C.L.E](docs/example.jpg)
