@@ -17,33 +17,29 @@ O.R.A.C.L.E (Optimized Reasoning and Analytics for Capital & Live Events) contin
 
 ---
 
-## How It Works
+## Workflow
 
-```text
-        Your Watchlist
-               │
-               ▼
-     Monitor Stock Prices
-               │
-               ▼
- Significant Price Movement?
-        │               │
-       No              Yes
-        │               │
-        ▼               ▼
- Continue         Analyze Market News
- Monitoring             │
-                        ▼
-             Generate AI Summary
-                        │
-                        ▼
-              Deliver SMS Alert
-                        │
-                        ▼
-         Receive User SMS Commands
-                        │
-                        ▼
-             Update Watchlist
+```mermaid
+flowchart LR
+
+A[Tracked Stocks]
+--> B[Price Monitor]
+
+B --> C{Movement > Threshold?}
+
+C -->|No| B
+
+C -->|Yes| D[Market News]
+
+D --> E[AI Analysis]
+
+E --> F[Summary Generation]
+
+F --> G[SMS Alerts]
+
+G --> H[User Commands]
+
+H --> A
 ```
 
 ---
