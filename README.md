@@ -146,12 +146,19 @@ docker run -p 8000:8000 --env-file .env oracle
 
 ```text
 oracle/
-├── main.py                # FastAPI app and entry point
-├── lib/                   # Core logic (agents, SMS, stock checker, tools, tracker)
-├── resources/             # Data files (alert history, tracker list)
-├── requirements.txt       # Python dependencies
-├── .env                   # Environment variables
-└── README.md              # This file
+├── docs/                   # Project documentation
+├── lib/                    # Core modules (AI, stock monitoring, SMS, utilities)
+├── resource/               # Runtime data and configuration resources
+├── .env.example            
+├── .gitattributes          
+├── .gitignore              
+├── Dockerfile              # Docker container configuration
+├── docker-compose.yml      # Multi-container deployment
+├── LICENSE                 # License information
+├── ORACLE.py               # Main application entry point
+├── README.md               
+└── requirements.txt        
+
 ```
 
 ---
